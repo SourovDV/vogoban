@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="container mx-auto">
+        <section>
+
+            <div id="card-container" class="grid gap-10 grid-cols-1 md:grid-col-2 lg:grid-cols-3">
+
+            </div>
+
+        </section>
+        <section>
+            <!-- Open the modal using ID.showModal() method -->
+            <!-- <button class="btn" onclick="show_details.showModal()">open modal</button> -->
+            <dialog id="show_details" class="modal modal-bottom sm:modal-middle h-96">
+                <div id="show_all_details" class="modal-box">
+                
+                </div>
+            </dialog>
+        </section>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
